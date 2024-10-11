@@ -54,12 +54,13 @@ header .hl{
     color: #fff;
     font-size: 1.6rem;
 }
-.navbar_list .button button{
+.navbar_list .button{
     color: #fff;
     border: 2px solid #fff;
     padding: 1.2rem 2.4rem;
     margin-left: 2rem;
     border-radius: 2rem;
+    background-color: rgb(red, green, blue, 0);
 }
 
 /* header end */
@@ -97,7 +98,7 @@ header .hl{
     border: none;
     width: 129px;
     height: 55px;
-    background-color: red;
+    background-color: #f4511F;
     border-radius: 10px;
     padding: 16px 28px;
 }
@@ -178,6 +179,10 @@ header .hl{
 .about-right img{
     width: 350px;
     height: 490px;
+    position: relative;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 /* About page end */
 
@@ -257,6 +262,12 @@ header .hl{
 /*Candy page end  */
 
 /* News page start */
+.newcon{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .newcondiv{
     width: 310px;
     height: 325px;
@@ -268,6 +279,13 @@ header .hl{
     padding: 24px 0 16px 0;
     flex-direction: column;
     align-items: center;
+}
+.newcon-b{
+    margin-top: 50px;
+    width: 968px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .newcondiv img{
@@ -331,3 +349,56 @@ header .hl{
     padding: 0 8px;
 }
 /* New page end */
+
+/* footer start */
+.fbox{
+    width: 170px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: flex-start;
+}
+.fbox a{
+    color: #fff;
+}
+.footer-box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.footer{
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center;
+}
+.fcontent{
+    width: 968px;
+    text-align: center;
+    color: #fff;
+    margin: 80px 0 40px 0;
+}
+.footer .fl{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+}
+
+
+.footer .fr{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+}
+/* footer end */
+@keyframes anim {
+    0%{top:0; top: }
+    25%{top: 10px;}
+    50%{top:0;}
+    75%{top:10px}
+    100%{top:0;}
+    
+}
