@@ -254,7 +254,9 @@ header .hl{
     align-items: center;
     justify-content: center;
 }
+/*Candy page end  */
 
+/* News page start */
 .newcondiv{
     width: 310px;
     height: 325px;
@@ -292,3 +294,40 @@ header .hl{
     text-decoration: line-through;
     
 }
+
+.ournew{
+    margin-top: 100px;
+    width: 968px;
+    height: 260px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.in{
+    width: 484px;
+    height: 88px;
+    background-color: rgb(7, 7, 7, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in .submit{
+    width: 136px;
+    height: 55px;
+    background-color: #f4511F;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.in .email{
+    width: 315px;
+    height: 55px;
+    background-color: rgb(7, 7, 7, 0);
+    border: none;
+    padding: 0 8px;
+}
+/* New page end */
