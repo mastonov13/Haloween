@@ -16,7 +16,7 @@ ul{
 }
 
 .box{
-    width: 96.8rem;
+    width: 924px;
     margin: 0 auto;
 }
 
@@ -24,6 +24,8 @@ ul{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
 }
 header .hl{
     display: inline-block;
@@ -63,8 +65,67 @@ header .hl{
 /* header end */
 
 /* Home page start */
+.slider1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .slider1 .sl-l img{
-    width: 38.5rem;
-    height: 42rem;
+    width: 275px;
+    height: 300px;
+}
+
+.slider1 .sl-l{
+    width: 430px;
+    height: 320pxs;
+    color: #fff;
+}
+
+.slider1 .sl-r{
+    width: 430px;
+    height: 320pxs;
+    color: #fff;
+    
+}
+.slider1 .sl-r .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sl-r .btn button{
+    border: none;
+    width: 129px;
+    height: 55px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 16px 28px;
+}
+.sl-r .btn a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.sl-r .rs{
+    margin-bottom: 16px;
+}
+
+.content1 h2{
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+.threediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content1 .conbox{
+    width: 200px;
+    height: auto215px;
+}
+.content1 .conbox img{
+    width: 120px;
+    height: 120px;
 }
 /* Home page end */
