@@ -385,13 +385,18 @@ header .hl{
     position: absolute;
     left: 0;
 }
-
+.footer .fl:hover{
+    margin-bottom: 20px;
+}
 
 .footer .fr{
     width: 100px;
     height: 200px;
     position: absolute;
     right: 0;
+}
+.footer .fr:hover{
+    margin-bottom: 30px;
 }
 /* footer end */
 @keyframes anim {
