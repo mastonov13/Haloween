@@ -203,6 +203,7 @@ header .hl{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .sixdiv .div-candy{
     display: flex;
     width: 200px;
@@ -213,6 +214,11 @@ header .hl{
     padding: 24px 0 16px 0;
     flex-direction: column;
     align-items: center;
+    
+}
+.sixdiv .div-candy:hover img{
+    padding-bottom: 20px;
+    /* opacity: 0; */
     
 }
 .sixdiv .div-candy img{
@@ -279,6 +285,9 @@ header .hl{
     padding: 24px 0 16px 0;
     flex-direction: column;
     align-items: center;
+}
+.newcondiv:hover img{
+    padding-bottom: 10px;
 }
 .newcon-b{
     margin-top: 50px;
@@ -397,6 +406,7 @@ header .hl{
 }
 .footer .fr:hover{
     margin-bottom: 30px;
+    img
 }
 /* footer end */
 @keyframes anim {
